@@ -1,0 +1,24 @@
+// set variable for a counter of how many are at max height
+// set a height variable that takes the max number from the given arr
+// for loop to iterate through the numbers 
+// if statement if max number equals height then aincrement in counter 
+
+
+function birthdayCakeCandles(ar) {
+    
+    let counter = 0;
+    
+    let height = Math.max(...ar);
+    
+    
+
+    for (let i = 0; i < ar.length; i++)
+    {
+    if(ar[i] == height){
+    counter++;
+        }
+    }
+    return counter;
+
+
+}
