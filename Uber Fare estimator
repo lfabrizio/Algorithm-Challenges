@@ -1,0 +1,20 @@
+function fareEstimator(ride_time, ride_distance, cost_per_minute, cost_per_mile) {
+    // cost per min x ride time
+    // cost per mile x ride distance 
+    // then add?
+    // empty array
+    // for loop
+    // push to empty array
+    
+    
+    let newArray = [];
+    
+            
+    for(let i = 0; i < cost_per_mile.length; i++){
+        let final = cost_per_mile[i] * ride_distance + cost_per_minute[i] * ride_time;
+        newArray.push(final);
+    
+        
+    }
+    return newArray;
+}
